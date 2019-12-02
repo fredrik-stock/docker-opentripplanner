@@ -14,3 +14,5 @@ COPY otp /usr/local/bin/
 RUN chmod 755 /usr/local/bin/*
 
 EXPOSE 8080
+
+CMD ["/bin/bash"]
